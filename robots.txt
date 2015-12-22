@@ -1,0 +1,9 @@
+# honeynet.org.es robots.txt
+User-agent: Slurp
+Crawl-delay: 5
+
+User-agent: msnbot
+Crawl-delay: 3600
+
+User-agent: *
+Allow: /

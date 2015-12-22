@@ -1,0 +1,61 @@
+body { 
+    background: #FFFFFF; 
+}
+
+h1, h2, h3, h4, h5 { 
+    color: #800000; 
+    font-family: sans-serif; 
+}
+
+span.term { 
+    font-weight: bold; 
+}
+
+span.guibutton, span.guiicon, span.guilabel, span.guimenu, span.guimenuitem, span.guisubmenu { 
+    font-weight: bold; 
+}
+
+div.sidebar { 
+    background: #F0F0F0; 
+    border: 1px solid gray; 
+    padding: 5px; 
+    margin: 20px; 
+}
+
+pre.programlisting { 
+    background: #F0F0F0; 
+    border: 1px solid gray; 
+    padding: 2px; 
+    font-size: 10pt;
+    white-space: pre;
+}
+
+pre.screen { 
+	font-family: monospace;
+	font-size: 1em;
+	display: block;
+	padding: 10px;
+	border: 1px dashed #bbb;
+	background-color: #eee;
+	color: #000;
+	overflow: auto;
+	border-radius: 2.5px;
+#	-moz-border-radius: 2.5px;
+	margin: 0.5em 2em;
+}
+
+span.application {
+    font-family: monospace;
+	font-weight: bold;
+}
+
+div.note table, div.tip table, div.important table, div.caution table, div.warning table {
+	width: 95%;
+	border: 2px solid #B0C4DE;
+	background-color: #F0F8FF;
+	color: #000000;
+	/* padding inside table area */
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}

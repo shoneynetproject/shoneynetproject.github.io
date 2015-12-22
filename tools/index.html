@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Tools - Spanish Honeynet Project</title>
+    <meta name="author" content="Spanish Honeynet Project">
+    <meta name="description" content="tools or scripts used for honeynet implementations. any software developed by ">
+    <meta name="keywords" content="scripts, tools" />
+    <meta name="HandheldFriendly" content="True"/>                                                                                    
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="http://honeynet.org.es/theme/css/packed.min.css">
+</head>
+
+<body>
+    
+<!-- Title -->
+<div class="callout primary">
+    <div class="row column text-center">
+        <h1><a href="http://honeynet.org.es">Spanish Honeynet Project</a></h1>
+    </div>
+</div>
+<!-- End Title -->
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<!-- Show menu items and pages -->
+<div class="top-bar-right">
+    <ul class="menu">
+
+            <li><a href="http://honeynet.org.es/papers/">Papers</a></li>
+            <li><a href="http://honeynet.org.es/tools/">Tools</a></li>
+            <li><a href="http://honeynet.org.es/contact/">Contact</a></li>
+            <li><a href="http://honeynet.org.es/">About</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+        
+    <h1>Tools</h1>
+    
+    <p>Tools or scripts used for Honeynet implementations.</p>
+<p>Any software developed by the Spanish Honeynet Project is OpenSource and falls under the Revised BSD License. Any other software is at a minimum OpenSource. If you are deploying a honeynet, we assume you have read and understand the concepts, risks and issues disscussed in KYE: Honeynets.</p>
+<p><em>NOTE: The Spanish Honeynet Project makes no warranties, nor can it be held responsibe for damages caused by any tools on this website.</em></p>
+<h2>Honeywall scripts</h2>
+<p>The scripts below have been written to make easier the management of the most common tools used in a Honeywall. The logging directories and log file name formats used are similar to the ones used by the Honeywall CDROM tool to preserve compatibility. These scripts are also included in the paper “Building a GenII Honeynet Gateway”.
+honeywall.conf: The main configuration file. It is an improved version of honeywall.conf config file included in the Honeywall CDROM by The Honeynet Project. It has two new options: LAN_BLOCK and LAN_ALLOWDED_IP.</p>
+<p><a href="/tools/rc.firewall">rc.firewall</a>: Script for loading iptables firewall. It is an improved version of the rc.firewall script v0.8 found in Honeywall CDROM that supports the new LAN_BLOCK option. On the other hand, the handlers’ section has been simplified.</p>
+<p><a href="/tools/snort.sh">snort.sh</a>: Script for managing snort NIDS (config file not provided).</p>
+<p><a href="/tools/snort_inline.sh">snort_inline.sh</a>: Script for managing snort-inline (config file not provided).</p>
+<p><a href="/tools/snort_pcap.sh">snort_pcap.sh</a>: Script for recording network traffic in binary format using snort in logging mode.</p>
+<p><a href="/tools/tcpdump.sh">tcpdump.sh</a>: Script for recording network traffic in binary format using tcpdump.</p>
+<p><a href="/tools/swatch.sh">swatch.sh</a>: Script for managing Swatch, used to provide basic alerting capabilites.</p>
+<p><a href="/tools/swatch.conf">swatch.conf</a>: Swatch elemental configuration file.</p>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+
+
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="http://www.honeynet.org">Honeynet Project</a></li>
+            <li><a href="http://www.honeypots.net">Honeypots.net</a></li>
+        </ul>
+		
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+              <p class="copyright">&#169; 2004-2015 - Spanish Honeynet Project</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns">
+                <p class="site-about">Site built using <a href="http://getpelican.com">Pelican</a> - Theme based on <a href="https://github.com/getpelican/pelican-themes/tree/master/zurb-F5-basic">zurb5</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript">
+      var sc_project=6020062; 
+      var sc_invisible=1; 
+      var sc_security="22f15d89"; 
+      var scJsHost = (("https:" == document.location.protocol) ?
+      "https://secure." : "http://www.");
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="create counter"
+          href="http://statcounter.com/free-hit-counter/"
+          target="_blank"><img class="statcounter"
+          src="http://c.statcounter.com/6020062/0/22f15d89/1/"
+          alt="create counter"></a></div></noscript>
+ 
+</body>
+</html>
